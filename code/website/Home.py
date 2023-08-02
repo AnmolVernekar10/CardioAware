@@ -31,6 +31,7 @@ st.markdown("""
     [data-testid=stSidebar] {
         background:transparent;
         font-size:18px;
+        color:white;
     }
 </style>
 """, unsafe_allow_html=True)
