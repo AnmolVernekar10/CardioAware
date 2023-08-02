@@ -13,7 +13,7 @@ import streamlit.components.v1 as components
 # In Pickling of Model : rb--> Load the model from pickle
 #                        lb--> Saving the model with pickle
 
-model_name='Model\\Model.pkl'
+model_name='model/Model.pkl'
 with open(model_name,'rb') as file:
     model=pickle.load(file)
 # *******************************************************************************************************************
@@ -79,7 +79,7 @@ def set_background(png_file):
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
-set_background('E:/Heart_Disease_Project/Code/Website/heart illustration.jpg')
+set_background('code/website/heart illustration.jpg')
 
 # ********************************************************************************
                             # Styled Text
