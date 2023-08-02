@@ -15,8 +15,21 @@ body
   font-size: 36px;
 }
 
+.css-17lntkn {
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: table-cell;
+}
 
-input[type=message], textarea {
+.css-pkbazv {
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: table-cell;
+}input[type=message], textarea {
   /* width: 100%; Full width */
   position: relative;
   top: -130px;
