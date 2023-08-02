@@ -129,6 +129,7 @@ st.markdown("""
     [data-testid=stSidebar] {
         background-color:transparent;
         font-size:18px;
+        color:white;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -215,7 +216,11 @@ def main():
             # 'ca': [ca],
         })
         prediction = model.predict(user_input)
-        st.write(f"Heart Disease Prediction: {'Positive' if prediction[0] == 1 else 'Negative'}")
+        if prediction[0]==1:
+             st.markdown('<p class="big-font">Heart Disease Prediction: Positive</p>', unsafe_allow_html=True)
+        else:
+            st.markdown('<p class="big-font">Heart Disease Prediction: Positive</p>', unsafe_allow_html=True)
+        # st.write(f"Heart Disease Prediction: {'Positive' if prediction[0] == 1 else 'Negative'}")
 
 if __name__ == '__main__':
     main()
