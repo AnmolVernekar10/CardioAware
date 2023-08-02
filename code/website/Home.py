@@ -11,7 +11,7 @@ from PIL import Image
 # In Pickling of Model : rb--> Load the model from pickle
 #                        lb--> Saving the model with pickle
 
-model_name='Model\\Model.pkl'
+model_name='model/Model.pkl'
 with open(model_name,'rb') as file:
     model=pickle.load(file)
 
@@ -61,7 +61,7 @@ def set_background(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # set_background('E:/Heart_Disease_Project/Code/Website/2923472.webp')
-set_background('E:/Heart_Disease_Project/Code/Website/heart illustration.jpg')
+set_background('code/website/heart illustration.jpg')
 # *******************************************************************************************************************
 
 
@@ -85,7 +85,7 @@ set_background('E:/Heart_Disease_Project/Code/Website/heart illustration.jpg')
 # *******************************************************************************************************************
 # Used for importing the Css file ( style.css)
 def local_css():
-    with open("E:\Heart_Disease_Project\Code\Website\Style\style.css") as f:
+    with open("code/website/style/style.css") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 # *******************************************************************************************************************
 
