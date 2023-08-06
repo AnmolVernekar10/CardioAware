@@ -104,7 +104,7 @@ def webcode():
     with st.container():
         original_title = '<p style=" position:relative;top:-140px;color:White; font-size: 32px;"><b><u>Key Features: </u></b></p>'
         st.markdown(original_title, unsafe_allow_html=True)
-        original_title = '<p style=" position:relative;color:white;font-weight:bold; font-size: 20px;top:-133px;padding-left:50px;padding-right:50px;">Comprehensive Risk Assessment, User-Friendly Interface<br> ,Instant Results, Educational Resources..</p>'
+        original_title = '<p style=" position:relative;color:white;font-weight:bold; font-size: 20px;top:-133px;padding-left:50px;padding-right:50px;">Comprehensive Risk Assessment, User-Friendly Interface<br> Instant Results, Educational Resources..</p>'
         st.markdown(original_title, unsafe_allow_html=True)
 
     with st.container():
